@@ -37,7 +37,7 @@ const Customizer = () => {
 			displayLoading();
 
 			//* call our backend to generate an AI image
-			const response = await fetch(`${serverUrl}/api/v1/dalle`, {
+			const response = await fetch(`https://grid-5.vercel.app/api/v1/dalle`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
