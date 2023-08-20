@@ -27,7 +27,7 @@ const Home = () => {
 				<motion.section className='home' {...slideAnimation('left')}>
 					<motion.header {...slideAnimation('down')}>
 						<a
-							href='https://www.linkedin.com/in/exslym/'
+							href='#'
 							target='_blank'
 							className='flex items-center gap-[2vmin]'
 						>
@@ -37,22 +37,22 @@ const Home = () => {
 								className='xl:w-16 xl:h-16 lg:w-12 lg:h-12 md:w-10 md:h-10 w-8 h-8 object-contain'
 							/>
 							<h2 className='font-bold lg:text-[1.8rem] md:text-[1.4rem] text-md text-gray-500'>
-								exslym
+								Flipkart Grid 5.0
 							</h2>
 						</a>
 					</motion.header>
 
 					<motion.div className='home-content' {...headContainerAnimation}>
 						<motion.div {...headTextAnimation}>
-							<h1 className='head-text'>
-								LET'S <br />
-								DO IT.
-							</h1>
+							<h3 className='head-text'>
+								STYLE <br />
+								SCULPT
+							</h3>
 						</motion.div>
 						<motion.div {...headContentAnimation} className='flex flex-col md:gap-5 gap-3'>
 							<p className='head-subtext'>
 								<strong>Create</strong> your unique and&nbsp;exclusive shirt with&nbsp;our brand-new
-								3D&nbsp;customization tool. <strong>Uleash your&nbsp;imagination</strong>{' '}
+								3D&nbsp;customization tool. <strong>Unleash your&nbsp;imagination</strong>{' '}
 								and&nbsp;define&nbsp;your&nbsp;own&nbsp;style.
 							</p>
 							<CustomButton

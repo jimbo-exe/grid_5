@@ -8,7 +8,7 @@ const router = express.Router();
 
 /* you should make an .env file with OPENAI_API_KEY=... in the root of server directory  */
 const config = new Configuration({
-	apiKey: process.env.OPENAI_API_KEY,
+	apiKey: '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',
 });
 
 const openai = new OpenAIApi(config);

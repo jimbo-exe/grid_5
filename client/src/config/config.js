@@ -1,4 +1,4 @@
-export const serverUrl = 'https://grid-5.vercel.app/';
+export const serverUrl = 'https://threejs-ai-project-n5gw.onrender.com';
 
 const config = {
 	development: {
